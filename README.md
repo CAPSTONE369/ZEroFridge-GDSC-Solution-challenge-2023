@@ -24,9 +24,24 @@
 
 ## ZEroFridge
 
+배경 설명 (question 1, 2)
+
 ### Screenshots
 
+대표 기능 3가지 3개 화면, 테이블에 넣을 것
 
+<table border="1" cellspacing="0" cellpadding="0" width="90%">
+    <tr width="100%">
+        <td width="20%" align="center">feature 1</a></td>
+        <td width="20%" align="center">feature 2</a></td>
+        <td width="20%" align="center">feature 3</a></td>
+    </tr>
+    <tr width="100%">
+        <td width="20%" align="center"><img src = "https://github.com/yhjune.png"></td>
+        <td width="20%" align="center"><img src = "https://github.com/sunnyineverywhere.png"/></td>
+        <td width="20%" align="center"><img src = "https://github.com/penguin1109.png"/></td>
+    </tr>
+</table>
 
 ## Implementation
 
@@ -58,6 +73,8 @@
 &nbsp; <img alt="MLflow" src ="https://img.shields.io/badge/MLflow-0194E2.svg?&style=for-the-badge&logo=MLflow&logoColor=white"/>
 <img alt="PyTorch" src ="https://img.shields.io/badge/PyTorch-EE4C2C.svg?&style=for-the-badge&logo=PyTorch&logoColor=white"/>
 <img alt="Flask" src ="https://img.shields.io/badge/Flask-000000.svg?&style=for-the-badge&logo=Flask&logoColor=white"/>
+
+### 
 
 ### Challenges
 

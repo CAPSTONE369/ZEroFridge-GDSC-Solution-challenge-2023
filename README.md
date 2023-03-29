@@ -70,7 +70,23 @@
 
 
 ## Credit
-
+<table border="1" cellspacing="0" cellpadding="0" width="90%">
+    <tr width="100%">
+        <td width="20%" align="center"><a href= "https://github.com/yhjune">Hyojung Yoon</a></td>
+        <td width="20%" align="center"><a href= "https://github.com/sunnyineverywhere">이선의</a></td>
+        <td width="20%" align="center"><a href= "https://github.com/penguin1109">이지혜</a></td>
+    </tr>
+    <tr width="100%">
+        <td width="20%" align="center"><img src = "https://github.com/yhjune.png"></td>
+        <td width="20%" align="center"><img src = "https://github.com/sunnyineverywhere.png"/></td>
+        <td width="20%" align="center"><img src = "https://github.com/penguin1109.png"/></td>
+    </tr>
+    <tr width="100%">
+        <td width="20%" align="center">client, server </td>
+        <td width="20%" align="center">client, server,CI/CD </td>
+        <td width="20%" align="center">OCR</td>
+   </tr>
+</table>
 
 ## Liscense
 

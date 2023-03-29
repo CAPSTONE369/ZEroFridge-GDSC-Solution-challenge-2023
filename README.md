@@ -85,7 +85,7 @@
         <td width="20%" align="center"><img src = "https://github.com/penguin1109.png"/></td>
     </tr>
     <tr width="100%">
-        <td width="20%" align="center">client, server </td>
+        <td width="20%" align="center">client, server, product degisn </td>
         <td width="20%" align="center">client, server, CI/CD </td>
         <td width="20%" align="center">OCR</td>
    </tr>

@@ -1,3 +1,4 @@
+
 # ZEroFridge-GDSC-Solution-challenge-2023
 
 <p align="center">
@@ -9,20 +10,22 @@
 
 
 ## content
-
-
 1. [Demo Video](#demo-video) 
 2. [ZEroFridge](#zerofridge)
 3. [Implementation](#implementation)
-4. [How to Install & Use](#how-to-install) 
+4. [How to Install](#how-to-install) 
 5. [Credit](#credit)
 6. [License](#license)
 
 
-
 ## Demo video
 
+
+
 ## ZEroFridge
+
+### Screenshots
+
 
 
 ## Implementation
@@ -35,7 +38,14 @@
 <img alt="Google Cloud" src ="https://img.shields.io/badge/Google Cloud-4285F4.svg?&style=for-the-badge&logo=Google Cloud&logoColor=white"/> 
 <img alt="Google Colab" src ="https://img.shields.io/badge/Google Colab-F9AB00.svg?&style=for-the-badge&logo=Google Colab&logoColor=white"/>
 
-- develop
+- AWS
+  
+&nbsp;<img alt="Amazon AWS" src ="https://img.shields.io/badge/AWS-232F3E.svg?&style=for-the-badge&logo=Amazon AWS&logoColor=white"/>
+<img alt="Amazon RDS" src ="https://img.shields.io/badge/AWS RDS-527FFF.svg?&style=for-the-badge&logo=Amazon RDS&logoColor=white"/>
+<img alt="Amazon EC2" src ="https://img.shields.io/badge/AWS EC2-FF9900.svg?&style=for-the-badge&logo=Amazon EC2&logoColor=white"/>
+<img alt="Amazon S3" src ="https://img.shields.io/badge/AWS S3-569A31.svg?&style=for-the-badge&logo=Amazon S3&logoColor=white"/>
+
+- Develop
  
 &nbsp;<img alt="Spring" src ="https://img.shields.io/badge/Spring-6DB33F.svg?&style=for-the-badge&logo=Spring&logoColor=white"/> 
 <img alt="Spring Boot" src ="https://img.shields.io/badge/Spring Boot-6DB33F.svg?&style=for-the-badge&logo=Spring Boot&logoColor=white"/> 
@@ -43,13 +53,6 @@
 <img alt="Kakao" src ="https://img.shields.io/badge/Kakao-FFCD00.svg?&style=for-the-badge&logo=KakaoTalk&logoColor=white"/> 
 <img alt="Naver" src ="https://img.shields.io/badge/Naver-03C75A.svg?&style=for-the-badge&logo=Naver&logoColor=white"/>
   
-- AWS
-  
-&nbsp; <img alt="Amazon AWS" src ="https://img.shields.io/badge/AWS-232F3E.svg?&style=for-the-badge&logo=Amazon AWS&logoColor=white"/>
-<img alt="Amazon RDS" src ="https://img.shields.io/badge/AWS RDS-527FFF.svg?&style=for-the-badge&logo=Amazon RDS&logoColor=white"/>
-<img alt="Amazon EC2" src ="https://img.shields.io/badge/AWS EC2-FF9900.svg?&style=for-the-badge&logo=Amazon EC2&logoColor=white"/>
-<img alt="Amazon S3" src ="https://img.shields.io/badge/AWS S3-569A31.svg?&style=for-the-badge&logo=Amazon S3&logoColor=white"/>
-
 - OCR
   
 &nbsp; <img alt="MLflow" src ="https://img.shields.io/badge/MLflow-0194E2.svg?&style=for-the-badge&logo=MLflow&logoColor=white"/>
@@ -61,7 +64,7 @@
 ### Feature
 
 
-## How to Install & Use
+## How to Install
 
 ### Installation
 
@@ -83,12 +86,12 @@
     </tr>
     <tr width="100%">
         <td width="20%" align="center">client, server </td>
-        <td width="20%" align="center">client, server,CI/CD </td>
+        <td width="20%" align="center">client, server, CI/CD </td>
         <td width="20%" align="center">OCR</td>
    </tr>
 </table>
 
-## Liscense
+## License
 
 
 

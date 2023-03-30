@@ -48,20 +48,23 @@
 
 - Google
 
-&nbsp;<img alt="Flutter" src ="https://img.shields.io/badge/Flutter-02569B.svg?&style=for-the-badge&logo=Flutter&logoColor=white"/> 
+&nbsp;
+<img alt="Flutter" src ="https://img.shields.io/badge/Flutter-02569B.svg?&style=for-the-badge&logo=Flutter&logoColor=white"/> 
 <img alt="Google Cloud" src ="https://img.shields.io/badge/Google Cloud-4285F4.svg?&style=for-the-badge&logo=Google Cloud&logoColor=white"/> 
 <img alt="Google Colab" src ="https://img.shields.io/badge/Google Colab-F9AB00.svg?&style=for-the-badge&logo=Google Colab&logoColor=white"/>
 
 - AWS
   
-&nbsp;<img alt="Amazon AWS" src ="https://img.shields.io/badge/AWS-232F3E.svg?&style=for-the-badge&logo=Amazon AWS&logoColor=white"/>
+&nbsp;
+<img alt="Amazon AWS" src ="https://img.shields.io/badge/AWS-232F3E.svg?&style=for-the-badge&logo=Amazon AWS&logoColor=white"/>
 <img alt="Amazon RDS" src ="https://img.shields.io/badge/AWS RDS-527FFF.svg?&style=for-the-badge&logo=Amazon RDS&logoColor=white"/>
 <img alt="Amazon EC2" src ="https://img.shields.io/badge/AWS EC2-FF9900.svg?&style=for-the-badge&logo=Amazon EC2&logoColor=white"/>
 <img alt="Amazon S3" src ="https://img.shields.io/badge/AWS S3-569A31.svg?&style=for-the-badge&logo=Amazon S3&logoColor=white"/>
 
 - Develop
  
-&nbsp;<img alt="Spring" src ="https://img.shields.io/badge/Spring-6DB33F.svg?&style=for-the-badge&logo=Spring&logoColor=white"/> 
+&nbsp;
+<img alt="Spring" src ="https://img.shields.io/badge/Spring-6DB33F.svg?&style=for-the-badge&logo=Spring&logoColor=white"/> 
 <img alt="Spring Boot" src ="https://img.shields.io/badge/Spring Boot-6DB33F.svg?&style=for-the-badge&logo=Spring Boot&logoColor=white"/> 
 <img alt="MySQL" src ="https://img.shields.io/badge/MySQL-4479A1.svg?&style=for-the-badge&logo=MySQL&logoColor=white"/>
 <img alt="Kakao" src ="https://img.shields.io/badge/Kakao-FFCD00.svg?&style=for-the-badge&logo=KakaoTalk&logoColor=white"/> 
@@ -69,7 +72,8 @@
   
 - OCR
   
-&nbsp; <img alt="MLflow" src ="https://img.shields.io/badge/MLflow-0194E2.svg?&style=for-the-badge&logo=MLflow&logoColor=white"/>
+&nbsp; 
+<img alt="MLflow" src ="https://img.shields.io/badge/MLflow-0194E2.svg?&style=for-the-badge&logo=MLflow&logoColor=white"/>
 <img alt="PyTorch" src ="https://img.shields.io/badge/PyTorch-EE4C2C.svg?&style=for-the-badge&logo=PyTorch&logoColor=white"/>
 <img alt="Flask" src ="https://img.shields.io/badge/Flask-000000.svg?&style=for-the-badge&logo=Flask&logoColor=white"/>
 
@@ -81,8 +85,94 @@
 
 
 ## How to Install
+### ZEF-CLIENT
+**1. Install Flutter**
+- You can install flutter with official document of Flutter.
+- Follow step by step.
+- [Link - Install Flutter](https://flutter-ko.dev/docs/get-started/install)
+<br />
 
-### Installation
+**2. You can launch this Demo Application on any devices(emulator), but we recommand use:**
+IPHONE 12 Pro / over (v.) iOS 15
+
+<br />
+
+**3. Type below scripts in the command prompt(or Bash)**
+
+```bash
+cd {root directory of this proejct}
+flutter doctor
+flutter pub get
+flutter run
+```
+### ZEF-SERVER
+_**HOW TO INSTALL DOCKER?**_
+- Ubuntu
+```bash
+sudo apt update
+sudo apt install docker.io
+```
+
+- Mac, Window
+> Use Docker Desktop.
+  [YOU CAN INSTALL HERE](https://www.docker.com/products/docker-desktop/)
+
+<br />
+
+**2. Installation: HOW TO RUN?**
+1) Pull Docker Image
+```bash
+sudo docker pull sunnyineverywhere/fridge-api-springboot
+```
+2) Launch Docker Image In Conatainer
+```bash
+sudo docker run -d -p 8080:8080 sunnyineverywhere/fridge-api-springboot
+```
+
+### ZEF-OCR
+_**HOW TO INSTALL DOCKER?**_
+- Ubuntu
+```bash
+sudo apt update
+sudo apt install docker.io
+```
+
+- Mac, Window
+> Use Docker Desktop.
+  [YOU CAN INSTALL HERE](https://www.docker.com/products/docker-desktop/)
+
+<br />
+
+**2-1. Installation - GPU**
+1) Pull Docker Image
+```bash
+sudo docker pull sunnyineverywhere/fridge-ocr-flask
+```
+
+2) Usage
+You can test the OCR demonstration on your recipt image by running the `Flask` api.
+```bash
+sudo docker run -d -p 5000:5000 sunnyineverywhere/fridge-ocr-flask
+```
+
+<br />
+
+**2-2. Installation - CPU**
+1) Pull Docker Image
+```bash
+sudo docker pull sunnyineverywhere/fridge-ocr-flask-cpu
+```
+
+2) Usage
+You can test the OCR demonstration on your recipt image by running the `Flask` api.
+```bash
+sudo docker run -d -p 5000:5000 sunnyineverywhere/fridge-ocr-flask-cpu
+```
+
+<br />
+
+> - The demo is available in `localhost:5000/model` if you wish to test the result via `Postman`.
+> - The demo is available in `localhost:5000/demo` if you wish to test the result by uploading the image via web.
 
 
 ### Use
@@ -106,6 +196,7 @@
         <td width="20%" align="center">OCR</td>
    </tr>
 </table>
+
 
 ## License
 

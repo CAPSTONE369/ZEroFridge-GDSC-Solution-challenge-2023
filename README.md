@@ -28,8 +28,6 @@
 
 ### Screenshots
 
-대표 기능 3가지 3개 화면, 테이블에 넣을 것
-
 <table border="1" cellspacing="0" cellpadding="0" width="90%">
     <tr width="100%">
         <td width="20%" align="center">Registeration food list</a></td>
@@ -37,15 +35,16 @@
         <td width="20%" align="center">zero waste recipt</a></td>
     </tr>
     <tr width="100%">
-        <td width="20%" align="center"><img src = "https://github.com/yhjune.png"></td>
-        <td width="20%" align="center"><img src = "https://github.com/sunnyineverywhere.png"/></td>
-        <td width="20%" align="center"><img src = "https://github.com/penguin1109.png"/></td>
+        <td width="20%" align="center"><img src = "https://user-images.githubusercontent.com/80109963/228923679-d18a1744-c611-4fac-8ecd-fc8240b6759d.png"></td>
+        <td width="20%" align="center"><img src = "https://user-images.githubusercontent.com/80109963/228923853-1a696e1b-152b-4e27-b00d-b3a84c39a7bd.png"/></td>
+        <td width="20%" align="center"><img src = "https://user-images.githubusercontent.com/80109963/228923381-35e0dd2e-f9a6-4e99-b7aa-6284eba5ccb5.png" /></td>
     </tr>
 </table>
 
 ## Implementation
 
-![image](https://user-images.githubusercontent.com/80109963/206717924-ea7aa581-c881-4367-b5c6-d778fd21ab9b.png)
+![image](https://user-images.githubusercontent.com/80109963/228924300-1284e9f7-22ad-4e0a-a913-7bb88a523d6c.png)
+
 
 - Google
 
@@ -103,7 +102,7 @@
     </tr>
     <tr width="100%">
         <td width="20%" align="center">client, server, product degisn </td>
-        <td width="20%" align="center">client, server, CI/CD </td>
+        <td width="20%" align="center">client, server, Dev&ML Ops </td>
         <td width="20%" align="center">OCR</td>
    </tr>
 </table>

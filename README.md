@@ -32,9 +32,9 @@
 
 <table border="1" cellspacing="0" cellpadding="0" width="90%">
     <tr width="100%">
-        <td width="20%" align="center">feature 1</a></td>
-        <td width="20%" align="center">feature 2</a></td>
-        <td width="20%" align="center">feature 3</a></td>
+        <td width="20%" align="center">Registeration food list</a></td>
+        <td width="20%" align="center">sharing the fridge</a></td>
+        <td width="20%" align="center">zero waste recipt</a></td>
     </tr>
     <tr width="100%">
         <td width="20%" align="center"><img src = "https://github.com/yhjune.png"></td>

@@ -1,0 +1,12 @@
+[submodule "GSC_ZEF_CLIENT"]
+	path = GSC_ZEF_CLIENT
+	url = https://github.com/CAPSTONE369/GSC_ZEF_CLIENT.git
+[submodule "GSC_ZEF_SERVER"]
+	path = GSC_ZEF_SERVER
+	url = https://github.com/CAPSTONE369/GSC_ZEF_SERVER.git
+[submodule "GSC_ZEF_OCR"]
+	path = GSC_ZEF_OCR
+	url = https://github.com/CAPSTONE369/GSC_ZEF_OCR.git
+[submodule "GSC_ZEF_OCR_CPU"]
+	path = GSC_ZEF_OCR_CPU
+	url = https://github.com/CAPSTONE369/GSC_ZEF_OCR_CPU.git
